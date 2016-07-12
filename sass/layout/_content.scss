@@ -11,8 +11,23 @@
 
 .content-area {
     @include breakpoint($screen-large) {
-        @include span(8 of 12);
+        // @include span(8 of 12 nest);
     }
+}
+
+.entry-header {
+    @include bleed-x(99em);
+    background: $cd_background;
+    @include clearfix;
+}
+
+.entry-title {
+    padding: 8rem 0;
+    margin: 0;
+    color: $cd_text;
+    @include span(8 of 12 nest);
+    @include push(2 of 12);
+    text-align: center;
 }
 
 aside.widget-area {
