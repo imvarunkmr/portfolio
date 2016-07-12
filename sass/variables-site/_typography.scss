@@ -1,5 +1,13 @@
-$font__main: sans-serif;
+// Addd google fonts
+@import url(https://fonts.googleapis.com/css?family=Lato:400,100,900);
+
+$font__main: 'lato', sans-serif;
 $font__code: Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
 $font__pre: "Courier 10 Pitch", Courier, monospace;
 $font__line-height-body: 1.5;
 $font__line-height-pre: 1.6;
+
+// Lato font weights
+$f_thin: 100;
+$f_normal: 400;
+$f_bold: 900;

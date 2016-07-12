@@ -1,4 +1,4 @@
-/*!
+@import url(https://fonts.googleapis.com/css?family=Lato:400,100,900);/*!
 Theme Name: Portfolio
 Theme URI: https://github.com/imvarunkmr/portfolio/
 Author: Varun Kumar
@@ -57,7 +57,7 @@ textarea{overflow:auto}
 optgroup{font-weight:bold}
 table{border-collapse:collapse;border-spacing:0}
 td,th{padding:0}
-body,button,input,select,textarea{color:#404040;font-family:sans-serif;font-size:16px;font-size:1rem;line-height:1.5}
+body,button,input,select,textarea{color:#404040;font-family:"lato",sans-serif;font-size:16px;font-size:1rem;line-height:1.5}
 h1,h2,h3,h4,h5,h6{clear:both}
 h1{font-size:2.5rem}
 p{margin-bottom:1.5em}
