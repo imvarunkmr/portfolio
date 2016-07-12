@@ -1,13 +1,48 @@
-.wrapper {
-    @include container( 1200px );
+.site-header {
+    background: $cd_background;
+    @include bleed-x(99em)
+    overflow: hidden;
 }
 
 .site-branding {
-    @include span(4 of 12);
+    @include span(5 of 12);
+    color: $cd_text;
+    a,
+    a:visited {
+        color: $cd_text;
+        text-decoration: none;
+    }
+    .site-title {
+        @include span(3 of 5);
+        text-transform: uppercase;
+        margin: 0;
+        a{
+            font-size: 2em;
+            line-height: $header-height;
+        }
+    }
+
+    .site-description {
+        @include span(2 of 5);
+        margin: 0;
+        line-height: $header-height;
+        font-size: 0.8rem;
+        font-style: italic;
+        color: darken( $cd_text, 20%);
+    }
 }
 
 .main-navigation {
-    // @include span(8 of 12 last);
-    float: right;
-    line-height: 90px;
+    @include span(6 of 12 last);
+    ul {
+        float: right;
+        line-height: $header-height;
+
+        a,
+        a:visited {
+            color: $cd_text;
+            text-transform: uppercase;
+            font-size: 0.9rem;
+        }
+    }
 }

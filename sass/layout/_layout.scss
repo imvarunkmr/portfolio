@@ -1,7 +1,8 @@
 $susy: (
     columns: 12,
-    gutter-position: inside,
+    gutter-position: split,
     math: fluid,
+    debug: ( image: show, ),
 );
 @import "header";
 @import "content";

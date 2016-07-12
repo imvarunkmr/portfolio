@@ -68,9 +68,9 @@ code,kbd,tt,var{font-family:Monaco,Consolas,"Andale Mono","DejaVu Sans Mono",mon
 abbr,acronym{border-bottom:1px dotted #666;cursor:help}
 mark,ins{background:#fff9c0;text-decoration:none}
 big{font-size:125%}
-html{box-sizing:border-box}
+html{box-sizing:border-box;overflow-x:hidden}
 *,*:before,*:after{box-sizing:inherit}
-body{background:#fff}
+body{background:#fff;overflow-x:hidden}
 blockquote,q{quotes:"" ""}
 blockquote:before,blockquote:after,q:before,q:after{content:""}
 hr{background-color:#ccc;border:0;height:1px;margin-bottom:1.5em}
@@ -82,11 +82,16 @@ dt{font-weight:bold}
 dd{margin:0 1.5em 1.5em}
 img{height:auto;max-width:100%}
 table{margin:0 0 1.5em;width:100%}
-.wrapper{max-width:1200px;margin-left:auto;margin-right:auto}
-.wrapper:after{content:" ";display:block;clear:both}
-.site-branding{box-sizing:border-box;width:33.3333333333%;float:left;padding-left:.8333333333%;padding-right:.8333333333%}
-.main-navigation{float:right;line-height:90px}
-.site{max-width:100%;margin-left:auto;margin-right:auto;margin-left:10%;margin-right:10%}
+.site-header{background:#34383b;margin-right:-99em;margin-left:-99em;padding-right:99em;padding-left:99em;overflow:hidden}
+.site-branding{width:40%;float:left;margin-left:.8333333333%;margin-right:.8333333333%;color:#e8e8e8}
+.site-branding a,.site-branding a:visited{color:#e8e8e8;text-decoration:none}
+.site-branding .site-title{width:56%;float:left;margin-left:2%;margin-right:2%;text-transform:uppercase;margin:0}
+.site-branding .site-title a{font-size:2em;line-height:8rem}
+.site-branding .site-description{width:36%;float:left;margin-left:2%;margin-right:2%;margin:0;line-height:8rem;font-size:.8rem;font-style:italic;color:#b5b5b5}
+.main-navigation{width:48.3333333333%;float:right;margin-left:.8333333333%;margin-right:.8333333333%}
+.main-navigation ul{float:right;line-height:8rem}
+.main-navigation ul a,.main-navigation ul a:visited{color:#e8e8e8;text-transform:uppercase;font-size:.9rem}
+.site{max-width:100%;margin-left:auto;margin-right:auto;background-image:-webkit-linear-gradient(left,transparent 10%,rgba(102,102,255,0.25) 10%,rgba(179,179,255,0.25) 90%,transparent 90%);background-image:linear-gradient(to right,transparent 10%,rgba(102,102,255,0.25) 10%,rgba(179,179,255,0.25) 90%,transparent 90%);background-size:8.3333333333%;background-origin:content-box;background-clip:content-box;background-position:left top;margin-left:10%;margin-right:10%}
 .site:after{content:" ";display:block;clear:both}
 button,input[type="button"],input[type="reset"],input[type="submit"]{border:1px solid;border-color:#ccc #ccc #bbb;border-radius:3px;background:#e6e6e6;box-shadow:inset 0 1px 0 rgba(255,255,255,0.5),inset 0 15px 17px rgba(255,255,255,0.5),inset 0 -5px 12px rgba(0,0,0,0.05);color:rgba(0,0,0,0.8);font-size:12px;font-size:.75rem;line-height:1;padding:.6em 1em .4em;text-shadow:0 1px 0 rgba(255,255,255,0.8)}
 button:hover,input[type="button"]:hover,input[type="reset"]:hover,input[type="submit"]:hover{border-color:#ccc #bbb #aaa;box-shadow:inset 0 1px 0 rgba(255,255,255,0.8),inset 0 15px 17px rgba(255,255,255,0.8),inset 0 -5px 12px rgba(0,0,0,0.02)}
@@ -152,8 +157,8 @@ embed,iframe,object{max-width:100%}
 .gallery-caption{display:block}
 @media screen and (min-width:37.5em){.menu-toggle{display:none}
 .main-navigation ul{display:block;content:"";display:table;table-layout:fixed}
-}@media(min-width:1280px){.site{max-width:1140px;margin-left:auto;margin-right:auto}
+}@media(min-width:1280px){.site{max-width:1140px;margin-left:auto;margin-right:auto;background-image:-webkit-linear-gradient(left,transparent 10%,rgba(102,102,255,0.25) 10%,rgba(179,179,255,0.25) 90%,transparent 90%);background-image:linear-gradient(to right,transparent 10%,rgba(102,102,255,0.25) 10%,rgba(179,179,255,0.25) 90%,transparent 90%);background-size:8.3333333333%;background-origin:content-box;background-clip:content-box;background-position:left top}
 .site:after{content:" ";display:block;clear:both}
-.content-area{box-sizing:border-box;width:66.6666666667%;float:left;padding-left:.8333333333%;padding-right:.8333333333%}
-aside.widget-area{box-sizing:border-box;width:33.3333333333%;float:right;padding-left:.8333333333%;padding-right:.8333333333%}
+.content-area{width:65%;float:left;margin-left:.8333333333%;margin-right:.8333333333%}
+aside.widget-area{width:31.6666666667%;float:right;margin-left:.8333333333%;margin-right:.8333333333%}
 }
