@@ -15,10 +15,12 @@
     .site-title {
         @include span(3 of 5);
         text-transform: uppercase;
+
         margin: 0;
-        a{
+        a, a:visited {
             font-size: 2em;
             line-height: $header-height;
+            font-weight: $f_bold;
         }
     }
 
@@ -43,6 +45,10 @@
             color: $cd_text;
             text-transform: uppercase;
             font-size: 0.9rem;
+            transition: all .3s;
+        }
+        a:hover {
+            color: darken( $cd_text, 20% );
         }
     }
 }
