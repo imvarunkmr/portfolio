@@ -89,8 +89,8 @@ table{margin:0 0 1.5em;width:100%}
 .site-branding .site-title{float:left;text-transform:uppercase;margin:0}
 .site-branding .site-title a,.site-branding .site-title a:visited{font-size:2em;line-height:8rem;font-weight:900}
 .site-branding .site-description{float:left;padding-left:25px;margin:0;line-height:8rem;font-size:.8rem;font-style:italic;color:#b5b5b5}
-.main-navigation{width:48.3333333333%;float:right;margin-left:.8333333333%;margin-right:.8333333333%}
-.main-navigation ul{float:right;line-height:8rem}
+.main-navigation{float:right}
+.main-navigation ul{line-height:8rem}
 .main-navigation ul a,.main-navigation ul a:visited{color:#e8e8e8;text-transform:uppercase;font-size:.9rem;-webkit-transition:all .3s;transition:all .3s}
 .main-navigation ul a:hover{color:#b5b5b5}
 .site{max-width:100%;margin-left:auto;margin-right:auto;background-image:-webkit-linear-gradient(left,transparent 10%,rgba(102,102,255,0.25) 10%,rgba(179,179,255,0.25) 90%,transparent 90%);background-image:linear-gradient(to right,transparent 10%,rgba(102,102,255,0.25) 10%,rgba(179,179,255,0.25) 90%,transparent 90%);background-size:8.3333333333%;background-origin:content-box;background-clip:content-box;background-position:left top;margin-left:10%;margin-right:10%}
@@ -119,9 +119,21 @@ a:hover,a:active{outline:0}
 .main-navigation li{float:left;position:relative;margin-left:1rem}
 .main-navigation a{display:block;text-decoration:none}
 .menu-toggle,.main-navigation.toggled ul{display:block}
+.hamburger-line,.menu-toggle span,.menu-toggle span:after,.menu-toggle span:before{display:block;position:absolute;background:#fff;width:35px;height:5px;outline:0;-webkit-transition:all 500ms ease-in-out;transition:all 500ms ease-in-out}
+.menu-toggle{position:relative;content:"";display:table;table-layout:fixed;width:35px;height:50px;padding:0;border:0;background:transparent;box-shadow:none;cursor:pointer;outline:0;margin-top:37px}
+.menu-toggle:hover,.menu-toggle:active,.menu-toggle:focus{background:transparent;box-shadow:none}
+.menu-toggle span:after{content:'';top:-10px}
+.menu-toggle span:before{content:'';bottom:-10px}
 .site-main .comment-navigation,.site-main .posts-navigation,.site-main .post-navigation{margin:0 0 1.5em;overflow:hidden}
 .comment-navigation .nav-previous,.posts-navigation .nav-previous,.post-navigation .nav-previous{float:left;width:50%}
 .comment-navigation .nav-next,.posts-navigation .nav-next,.post-navigation .nav-next{float:right;text-align:right;width:50%}
+.main-navigation{-webkit-transition:all 500ms ease-in-out;transition:all 500ms ease-in-out}
+.main-navigation.toggled #primary-menu{padding:3rem 0;position:absolute;width:100%;left:0;top:8rem;background:#1c1e20}
+.main-navigation.toggled #primary-menu li{text-align:center;width:100%;line-height:4;border-bottom:1px solid #17191a}
+.main-navigation.toggled #primary-menu li:last-child{border:0}
+.main-navigation.toggled .menu-toggle span{background-color:transparent}
+.main-navigation.toggled .menu-toggle span:before{-webkit-transform:rotate(-45deg);-ms-transform:rotate(-45deg);transform:rotate(-45deg);bottom:0}
+.main-navigation.toggled .menu-toggle span:after{top:0;-webkit-transform:rotate(45deg);-ms-transform:rotate(45deg);transform:rotate(45deg)}
 .screen-reader-text{clip:rect(1px,1px,1px,1px);position:absolute !important;height:1px;width:1px;overflow:hidden}
 .screen-reader-text:focus{background-color:#f1f1f1;border-radius:3px;box-shadow:0 0 2px 2px rgba(0,0,0,0.6);clip:auto !important;color:#21759b;display:block;font-size:14px;font-size:.875rem;font-weight:bold;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000}
 #content[tabindex="-1"]:focus{outline:0}

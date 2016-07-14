@@ -78,6 +78,47 @@
 .main-navigation.toggled ul {
 	display: block;
 }
+.hamburger-line {
+	display: block;
+	position: absolute;
+	background: #fff;
+	width: 35px;
+	height: 5px;
+	outline: none;
+	transition: all 500ms ease-in-out;
+}
+
+.menu-toggle {
+	position: relative;
+	@include clearfix;
+	width: 35px;
+	height: 50px;
+	padding: 0;
+	border: none;
+	background: transparent;
+	&:hover, &:active, &:focus {
+		background: transparent;
+		box-shadow: none;
+	}
+	box-shadow: none;
+	cursor: pointer;
+	outline: none;
+	margin-top: 37px;
+	span {
+		@extend .hamburger-line;
+		&:after {
+			@extend .hamburger-line;
+			content: '';
+			top: -10px;
+		}
+		&:before {
+			@extend .hamburger-line;
+			content: '';
+			bottom: -10px;
+		}
+	}
+
+}
 
 @media screen and (min-width: 1140px) {
 	.menu-toggle {
@@ -107,5 +148,45 @@
 		float: right;
 		text-align: right;
 		width: 50%;
+	}
+}
+
+// Toggled State
+.main-navigation {
+	transition: all 500ms ease-in-out;
+}
+.main-navigation.toggled {
+	#primary-menu {
+		padding: 3rem 0;
+		position: absolute;
+		width: 100%;
+		left: 0;
+		top: $header-height;
+		background: darken($cd_background, 10%);
+
+		li {
+			text-align: center;
+			width: 100%;
+			line-height: 4;
+			border-bottom: 1px solid darken( $cd_background, 12%);
+
+			&:last-child {
+				border: none;
+			};
+		}
+	}
+
+	.menu-toggle span {
+		background-color: transparent;
+
+		&:before {
+			transform: rotate(-45deg);
+			bottom: 0;
+		}
+
+		&:after {
+			top: 0;
+			transform: rotate(45deg);
+		}
 	}
 }
