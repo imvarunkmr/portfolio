@@ -31,7 +31,11 @@
         line-height: $header-height;
         font-size: 0.8rem;
         font-style: italic;
-        color: darken( $cd_text, 20%);
+        color: $cd_accent;
+        display: none;
+        @include breakpoint($tablet-large) {
+            display: block;
+        }
     }
 }
 
