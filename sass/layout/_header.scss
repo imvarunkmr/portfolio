@@ -1,21 +1,21 @@
 .site-header {
+    @include bleed-x(99em);
     background: $cd_background;
-    @include bleed-x(99em)
-    overflow: hidden;
 }
 
 .site-branding {
-    @include span(5 of 12);
+    float: left;
     color: $cd_text;
+
     a,
     a:visited {
         color: $cd_text;
         text-decoration: none;
     }
     .site-title {
-        @include span(3 of 5);
+        float: left;
+        // Styles
         text-transform: uppercase;
-
         margin: 0;
         a, a:visited {
             font-size: 2em;
@@ -25,7 +25,8 @@
     }
 
     .site-description {
-        @include span(2 of 5);
+        float: left;
+        padding-left: 25px;
         margin: 0;
         line-height: $header-height;
         font-size: 0.8rem;
