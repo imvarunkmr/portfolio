@@ -5,8 +5,24 @@ select,
 textarea {
 	color: $color__text-main;
 	font-family: $font__main;
-	@include font-size(1);
+	@include font-size(0.8);
 	line-height: $font__line-height-body;
+}
+
+html {
+	font-size: 1em;
+
+	@include breakpoint($bp_small) {
+		// font-size: 1.2em;
+	}
+
+	@include breakpoint($bp_small) {
+
+	}
+
+	@include breakpoint($bp_small) {
+
+	}
 }
 
 @import "headings";

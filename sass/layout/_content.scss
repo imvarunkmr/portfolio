@@ -23,12 +23,17 @@
 }
 
 .entry-title {
-    padding: 8rem 0;
+    padding: 0 0 4rem 0;
     margin: 0;
     color: $cd_text;
-    @include span(8 of 12 nest);
-    @include push(2 of 12);
     text-align: center;
+
+    @include breakpoint( $bp_small ) {
+        font-size: 2.9rem;
+        padding: 2rem 0 4rem 0;
+        @include span(8 of 12 );
+        @include push(2 of 12);
+    }
 }
 
 aside.widget-area {

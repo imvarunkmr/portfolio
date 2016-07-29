@@ -25,12 +25,12 @@ $color__border-abbr: #666;
     $cd_   Color for dark background
     $cl_   Color for light background
 */
-$cd_background: #34383B;
+$cd_background: darken(#34383B, 10%);
 
 $cd_accent: #A1A783;
 $cl_accent: #A1A783;
 
-$cd_text: #E8E8E8;
+$cd_text: #fff;
 $cl_text: #606060; // Body color
 $cd_text2: #A1A1A1;
 $cl_text2: #A1A1A1;
