@@ -14,11 +14,9 @@
 	</div><!-- #content -->
 
 	<footer id="colophon" class="site-footer" role="contentinfo">
-		<div class="site-info">
-			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'abs' ) ); ?>"><?php printf( esc_html__( 'Proudly powered by %s', 'abs' ), 'WordPress' ); ?></a>
-			<span class="sep"> | </span>
-			<?php printf( esc_html__( 'Theme: %1$s by %2$s.', 'abs' ), 'abs', '<a href="http://varunk.co" rel="designer">Varun Kumar</a>' ); ?>
-		</div><!-- .site-info -->
+		<?php wp_nav_menu('footer'); ?>
+		<p>Copyright &copy <?php echo date('Y'); ?> Varun Kumar</p>
+		<p>All rights reserved</p>
 	</footer><!-- #colophon -->
 </div><!-- #page -->
 

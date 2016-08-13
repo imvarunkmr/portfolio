@@ -1,0 +1,33 @@
+.site-footer {
+    padding: 3.5rem 0;
+    @include bleed-x(999em);
+    background: $cd_background;
+    color: darken($cd_text, 30%);
+
+    .menu {
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        margin-bottom: 2rem;
+
+        li {
+            display: inline-block;
+            margin-right: 1rem;
+            padding-right: 1rem;
+            border-right: 1px solid $cd_accent;
+
+            &:last-child {
+                border: 0;
+            }
+            a, a:visited {
+                color: $cd_accent;
+                text-transform: uppercase;
+                text-decoration: none;
+            }
+        }
+    }
+
+    p {
+        margin: 0;
+    }
+}

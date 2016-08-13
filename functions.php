@@ -164,3 +164,11 @@ require get_template_directory() . '/abs_functions.php';
  * Add Portfolio
  */
 require get_template_directory() . '/inc/portfolio.php';
+
+/**
+ * Add footer menu
+ */
+add_action( 'after_setup_theme', 'register_footer_menu' );
+function register_footer_menu() {
+	register_nav_menu( 'footer', __( 'Footer Menu', 'varunk' ) );
+}

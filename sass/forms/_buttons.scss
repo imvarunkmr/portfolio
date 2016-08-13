@@ -32,7 +32,7 @@ input[type="submit"] {
 	border-radius: 5px;
 	text-align: center;
 }
-input[type="button"].btn-primary, .btn-primary, .btn-primary:visited {
+ .btn-primary, .btn-primary:visited {
 	background: $cd_background;
 	color: $cd_text;
 	text-shadow: none;
@@ -47,6 +47,7 @@ input[type="button"].btn-primary, .btn-primary, .btn-primary:visited {
 }
 input[type="submit"].btn {
 	padding: 1rem 2rem !important;
+	border-radius: 5px;
 }
 input[type="submit"].btn-primary {
 	background: $cd_background !important;
