@@ -1,4 +1,5 @@
 .spotlights {
+    @include clearfix;
     .item {
         @include span( 6 of 12 );
         margin-bottom: 2.5rem;

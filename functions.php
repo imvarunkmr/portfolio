@@ -148,3 +148,8 @@ require get_template_directory() . '/inc/jetpack.php';
  * Load ABS functions.
  */
 require get_template_directory() . '/abs_functions.php';
+
+/**
+ * Add Portfolio
+ */
+require get_template_directory() . '/inc/portfolio.php';

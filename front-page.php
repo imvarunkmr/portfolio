@@ -96,6 +96,10 @@ get_header(); ?>
 
 			</section>
 
+			<section class="dark">
+				<h2>Recent Projects</h2>
+			</section>
+
 
 		</main><!-- #main -->
 	</div><!-- #primary -->

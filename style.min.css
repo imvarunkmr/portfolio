@@ -86,8 +86,10 @@ li>ul,li>ol{margin-bottom:0;margin-left:1.5em}
 dt{font-weight:bold}
 dd{margin:0 1.5em 1.5em}
 img{height:auto;max-width:100%}
+section{padding:3rem 0}
+section.dark{margin-right:-999em;margin-left:-999em;padding-right:999em;padding-left:999em;background:#eaeaea}
 table{margin:0 0 1.5em;width:100%}
-.site-header{margin-right:-99em;margin-left:-99em;padding-right:99em;padding-left:99em;background:#1c1e20}
+.site-header{margin-right:-999em;margin-left:-999em;padding-right:999em;padding-left:999em;background:#1c1e20}
 .site-branding{float:left;color:#fff}
 .site-branding a,.site-branding a:visited{color:#fff;text-decoration:none}
 .site-branding .site-title{float:left;text-transform:uppercase;margin:0}
@@ -101,6 +103,7 @@ table{margin:0 0 1.5em;width:100%}
 .site:after{content:" ";display:block;clear:both}
 .entry-header{margin-right:-99em;margin-left:-99em;padding-right:99em;padding-left:99em;background:#1c1e20;content:"";display:table;table-layout:fixed}
 .entry-title{padding:0 0 4rem 0;margin:0;color:#fff;text-align:center}
+.spotlights{content:"";display:table;table-layout:fixed}
 .spotlights .item{width:48.3333333333%;float:left;margin-left:.8333333333%;margin-right:.8333333333%;margin-bottom:2.5rem}
 .spotlights .item .icon{width:13.3333333333%;float:left;margin-left:1.6666666667%;margin-right:1.6666666667%}
 .spotlights .item .item-details{width:80%;float:left;margin-left:1.6666666667%;margin-right:1.6666666667%}

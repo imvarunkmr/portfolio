@@ -37,4 +37,14 @@ img {
 	max-width: 100%; /* Adhere to container width. */
 }
 
+section {
+	padding: 3rem 0;
+}
+
+section.dark {
+	@include bleed-x(999em);
+	background: $c_alt_bg;
+
+}
+
 @import "tables";
