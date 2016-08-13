@@ -17,6 +17,7 @@
   ],
   "dependencies": {
     "susy": "^2.2.12",
-    "breakpoint-sass": "^2.7.0"
+    "breakpoint-sass": "^2.7.0",
+    "slick-carousel": "^1.6.0"
   }
 }

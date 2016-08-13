@@ -113,6 +113,13 @@ function abs_scripts() {
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
 		wp_enqueue_script( 'comment-reply' );
 	}
+
+	// Slick slider
+	if( is_front_page() ) {
+		wp_enqueue_style( 'slick-css', get_template_directory_uri() . '/bower_components/slick-carousel/slick/slick.css' );
+
+		wp_enqueue_script( 'slick-js', get_template_directory_uri() . '/bower_components/slick-carousel/slick/slick.min.js', array('jquery'), '', true );
+	}
 }
 add_action( 'wp_enqueue_scripts', 'abs_scripts' );
 
