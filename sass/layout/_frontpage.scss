@@ -1,0 +1,16 @@
+.spotlights {
+    .item {
+        @include span( 6 of 12 );
+        margin-bottom: 2.5rem;
+
+        .icon {
+            @include span( 1 of 6 );
+        }
+        .item-details {
+            @include span( 5 of 6 );
+            h3 {
+                margin-top: 0;
+            }
+        }
+    }
+}

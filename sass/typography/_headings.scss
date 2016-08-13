@@ -6,3 +6,28 @@ h1 {
 	font-size: 2rem;
 	font-weight: $f_thin;
 }
+
+ h2 {
+	font-size: 2rem;
+	font-weight: $f_normal;
+	text-align: center;
+	margin-bottom: 2rem;
+	&:after {
+		content: ' ';
+		display: block;
+		width: 120px;
+		margin: 0 auto;
+		margin-top: 1rem;
+		height: 5px;
+		background: $cl_accent;
+	}
+}
+span.supportive-text {
+	display: block;
+	font-size: 1.1rem;
+	font-weight: $f_normal;
+	font-style: italic;
+	color: $cl_text2;
+	text-align: center;
+	margin-bottom: 3rem;
+}

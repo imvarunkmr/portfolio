@@ -116,6 +116,9 @@ function abs_scripts() {
 }
 add_action( 'wp_enqueue_scripts', 'abs_scripts' );
 
+// Constants
+define( "IMAGES", get_stylesheet_directory_uri() . '/images' );
+
 /**
  * Implement the Custom Header feature.
  */

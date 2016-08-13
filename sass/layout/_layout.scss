@@ -2,8 +2,9 @@ $susy: (
     columns: 12,
     gutter-position: split,
     math: fluid,
-    debug: ( image: show, ),
+    // debug: ( image: show, ),
 );
 @import "header";
 @import "content";
+@import "frontpage";
 @import "footer";

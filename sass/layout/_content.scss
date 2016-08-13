@@ -34,6 +34,10 @@
         @include span(8 of 12 );
         @include push(2 of 12);
     }
+
+    @include breakpoint( $bp_medium ) {
+        padding: 4rem 0 8rem 0;
+    }
 }
 
 aside.widget-area {
