@@ -120,6 +120,10 @@ function abs_scripts() {
 
 		wp_enqueue_script( 'slick-js', get_template_directory_uri() . '/bower_components/slick-carousel/slick/slick.min.js', array('jquery'), '', true );
 	}
+
+	wp_enqueue_script( 'custom-js', get_template_directory_uri() . '/js/custom.js', array('jquery'), '', true );
+
+
 }
 add_action( 'wp_enqueue_scripts', 'abs_scripts' );
 
