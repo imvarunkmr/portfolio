@@ -15,3 +15,37 @@
         }
     }
 }
+
+.repo {
+    display: block;
+    width: 300px;
+    margin: 0 auto;
+}
+
+.btn-support {
+    text-align: center;
+    display: block;
+    width: 100%;
+    a {
+        color: $cl_text;
+        &:visited {
+            color: $cl_text;
+        }
+    }
+}
+
+.contact-text {
+	@include span( 4 of 12 );
+	font-size: 1rem;
+	h2 {
+		text-align: left;
+		&:after {
+			display: none;
+		}
+	}
+}
+
+.contact-form {
+    @include span( 6 of 12 );
+    @include push(2);
+}

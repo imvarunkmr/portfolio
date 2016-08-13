@@ -100,6 +100,33 @@ get_header(); ?>
 				<h2>Recent Projects</h2>
 
 				<?php vk_portfolio(); ?>
+
+				<span class="supportive-text">I have a cool little plugin in official WordPress repository. It has currently 3000+ active users.</span>
+				<a target="_blank" class="btn btn-primary repo" href="https://wordpress.org/plugins/easylogo/stats/">Check Plugin</a>
+				<span class="btn-support">
+					<a href="http://plugins.varunk.co/easylogo/">or see how it works</a>
+				</span>
+			</section>
+
+			<section class="light">
+				<div class="contact-text">
+					<h2>Contact me</h2>
+					<p>
+						I am glad you decided to contact me. Please provide
+						some information about your project to get started.
+					</p>
+					<p>
+						I work with fixed price model. My minimum development charges for a standard website are $1000.
+					</p>
+					<p>
+						Currently available from: September 15, 2016
+					</p>
+				</div>
+
+				<div class="contact-form">
+					<?php echo do_shortcode('[contact-form-7 id="46" title="Contact form 1"]'); ?>
+				</div>
+
 			</section>
 
 
