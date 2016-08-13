@@ -98,6 +98,8 @@ get_header(); ?>
 
 			<section class="dark">
 				<h2>Recent Projects</h2>
+
+				<?php vk_portfolio(); ?>
 			</section>
 
 
