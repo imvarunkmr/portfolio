@@ -1,14 +1,27 @@
 .spotlights {
     @include clearfix;
     .item {
-        @include span( 6 of 12 );
+        @include span( 12 of 12 );
+
+        @include breakpoint( $tablet-large ) {
+            @include span( 6 of 12 );
+        }
         margin-bottom: 2.5rem;
 
         .icon {
-            @include span( 1 of 6 );
+            display: none;
+
+            @include breakpoint( $tablet-large ) {
+                display: block;
+                @include span( 1 of 6 );
+            }
         }
         .item-details {
-            @include span( 5 of 6 );
+            font-size: 1rem;
+            @include span( 6 of 6 );
+            @include breakpoint( $tablet-large ) {
+                @include span( 5 of 6 );
+            }
             h3 {
                 margin-top: 0;
             }
@@ -18,8 +31,11 @@
 
 .repo {
     display: block;
-    width: 300px;
+    width: 200px;
     margin: 0 auto;
+    @include breakpoint( $tablet-small ) {
+        width: 300px;
+    }
 }
 
 .btn-support {
@@ -35,7 +51,10 @@
 }
 
 .contact-text {
-	@include span( 4 of 12 );
+	@include span( 12 of 12 );
+    @include breakpoint( $tablet-large ) {
+        @include span( 4 of 12 );
+    }
 	font-size: 1rem;
 	h2 {
 		text-align: left;
@@ -46,6 +65,10 @@
 }
 
 .contact-form {
-    @include span( 6 of 12 );
-    @include push(2);
+    @include span( 12 of 12 );
+    @include breakpoint( $tablet-large ) {
+        @include span( 6 of 12 );
+        @include push(2);
+    }
+
 }

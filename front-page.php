@@ -83,7 +83,7 @@ get_header(); ?>
 							<img src="<?php echo IMAGES . '/icon-maintenance.png' ;?>" alt="">
 						</div>
 						<div class="item-details">
-							<h3>CHANGES & MAINTENANCE</h3>
+							<h3>Changes & Maintenance</h3>
 							<p>
 								You will be able to update the content on your
 								website yourself. In case you want to add/update
