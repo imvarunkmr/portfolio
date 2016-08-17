@@ -1,0 +1,9 @@
+{
+    "type": "ftp",
+    "host": "ftp.wpthug.com",
+    "username": "varunk@wpthug.com",
+    "password": "varun$$k&",
+    "port": 21,
+    "remotePath": "/wp-content/themes/varunk",
+    "uploadOnSave": false
+}

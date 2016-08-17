@@ -18,7 +18,7 @@ textarea {
 	border: 1px solid $color__border-input;
 	border-radius: 3px;
 	padding: 3px;
-	
+
 	&:focus {
 		color: $color__text-input-focus;
 	}
@@ -30,4 +30,10 @@ select {
 
 textarea {
 	width: 100%;
+}
+
+
+.contact-form label {
+	font-weight: $f_normal !important;
+	margin-bottom: 0 !important;
 }
