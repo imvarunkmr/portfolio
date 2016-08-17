@@ -31,7 +31,7 @@ get_header(); ?>
 			?>
 			<section class="light">
 				<h2>Full Stack Web Development</h2>
-				<span class="supportive-text">To build great websites, I need to have a solid workflow which is described below.</span>
+				<span class="supportive-text">My workflow is simple yet solid. It helps me in delivering quality websites in time.</span>
 
 				<div class="spotlights">
 					<div class="item">
@@ -43,8 +43,7 @@ get_header(); ?>
 							<p>
 								First things first. You tell me what you need.
 								I ask you few questions about your requirements.
-								We consider all the possibilities and define a
-								scope for the project.
+								We define the scope of project after understanding the requirements.
 							</p>
 						</div>
 
@@ -59,7 +58,7 @@ get_header(); ?>
 							<p>
 								Once we identified what needs to be build,
 								I will prepare the mockups for every screen on your website.
-								We can fix various design issues in this stage and prepare for the real action.
+								We can fix various design issues in this stage and prepare for next phase.
 							</p>
 						</div>
 					</div>
@@ -71,9 +70,9 @@ get_header(); ?>
 						<div class="item-details">
 							<h3>Development</h3>
 							<p>
-								Action begins. I put on my coding hat and spend my
+								I put on my coding hat and spend my
 								days and nights  bringing the designs to life.
-								I ensure everything works as expected.
+								I ensure everything works as expected and in an optimized way.
 							</p>
 						</div>
 					</div>
@@ -85,10 +84,8 @@ get_header(); ?>
 						<div class="item-details">
 							<h3>Changes & Maintenance</h3>
 							<p>
-								You will be able to update the content on your
-								website yourself. In case you want to add/update
-								some features, we can achieve that with minimum
-								costs and efforts.
+								You will be able to update most of the content on your
+								website yourself. If you need further help in running your website and keep it up to date, I have affordable plans for you.
 							</p>
 						</div>
 					</div>
