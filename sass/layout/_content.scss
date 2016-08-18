@@ -67,6 +67,9 @@ aside.widget-area {
         }
 
     }
+    .entry-meta {
+        color: $cl_accent;
+    }
     @include breakpoint( $bp_medium ) {
         @include span( 6 of 12);
     }

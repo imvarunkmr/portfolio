@@ -107,6 +107,7 @@ table{margin:0 0 1.5em;width:100%}
 .loop-entry{padding-top:3rem;font-size:1rem}
 .loop-entry .loop-entry-title{font-size:1.5rem;font-weight:400;text-align:left}
 .loop-entry .loop-entry-title a{color:#34383b;text-decoration:none}
+.loop-entry .entry-meta{color:#a1a783}
 .spotlights{content:"";display:table;table-layout:fixed}
 .spotlights .item{width:98.3333333333%;float:left;margin-left:.8333333333%;margin-right:.8333333333%;margin-bottom:2.5rem}
 .spotlights .item .icon{display:none}
