@@ -51,3 +51,24 @@ aside.widget-area {
         @include span(4 of 12 last);
     }
 }
+
+.loop-entry {
+    padding-top: 3rem;
+    font-size: 1rem;
+
+    .loop-entry-title {
+        font-size: 1.5rem;
+        font-weight: 400;
+        text-align: left;
+        a {
+            color: $cl_text;
+            text-decoration: none;
+
+        }
+
+    }
+    @include breakpoint( $bp_medium ) {
+        @include span( 6 of 12);
+    }
+
+}
