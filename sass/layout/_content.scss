@@ -75,3 +75,13 @@ aside.widget-area {
     }
 
 }
+
+.single-post {
+    .entry-content {
+        font-size: 1.3rem;
+        @include breakpoint( $bp_medium ) {
+            width: 80%;
+            margin: 3rem auto;
+        }
+    }
+}

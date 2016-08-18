@@ -108,6 +108,7 @@ table{margin:0 0 1.5em;width:100%}
 .loop-entry .loop-entry-title{font-size:1.5rem;font-weight:400;text-align:left}
 .loop-entry .loop-entry-title a{color:#34383b;text-decoration:none}
 .loop-entry .entry-meta{color:#a1a783}
+.single-post .entry-content{font-size:1.3rem}
 .spotlights{content:"";display:table;table-layout:fixed}
 .spotlights .item{width:98.3333333333%;float:left;margin-left:.8333333333%;margin-right:.8333333333%;margin-bottom:2.5rem}
 .spotlights .item .icon{display:none}
@@ -217,6 +218,7 @@ embed,iframe,object{max-width:100%}
 .contact-form{width:48.3333333333%;float:left;margin-left:.8333333333%;margin-right:.8333333333%;margin-left:17.5%}
 }@media(min-width:1140px){.entry-title{padding:4rem 0 8rem 0}
 .loop-entry{width:48.3333333333%;float:left;margin-left:.8333333333%;margin-right:.8333333333%}
+.single-post .entry-content{width:80%;margin:3rem auto}
 }@media screen and (min-width:1140px){.menu-toggle{display:none}
 .main-navigation ul{display:block;content:"";display:table;table-layout:fixed}
 }@media(min-width:1280px){.site{max-width:1140px;margin-left:auto;margin-right:auto}
