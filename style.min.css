@@ -108,7 +108,8 @@ table{margin:0 0 1.5em;width:100%}
 .loop-entry .loop-entry-title{font-size:1.5rem;font-weight:400;text-align:left}
 .loop-entry .loop-entry-title a{color:#34383b;text-decoration:none}
 .loop-entry .entry-meta{color:#a1a783}
-.single-post .entry-content{font-size:1.3rem}
+.single-post .entry-content{font-size:1.3rem;line-height:1.7}
+.single-post .entry-content blockquote{background:#fcfcfc;display:block;margin:0;padding:1rem 2.5rem;font-size:1.3rem;text-align:center;font-style:italic;color:#7c858c}
 .spotlights{content:"";display:table;table-layout:fixed}
 .spotlights .item{width:98.3333333333%;float:left;margin-left:.8333333333%;margin-right:.8333333333%;margin-bottom:2.5rem}
 .spotlights .item .icon{display:none}

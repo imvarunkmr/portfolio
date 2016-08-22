@@ -79,9 +79,23 @@ aside.widget-area {
 .single-post {
     .entry-content {
         font-size: 1.3rem;
+        line-height: 1.7;
         @include breakpoint( $bp_medium ) {
             width: 80%;
             margin: 3rem auto;
+        }
+
+        blockquote {
+            background: lighten($c_alt_bg, 7%);
+            display: block;
+            margin: 0;
+            padding: 1rem 2.5rem;
+            font-size: 1.3rem;
+            text-align: center;
+            font-style: italic;
+            color: lighten($cl_text, 30%);
+            // border-left: 3px solid $cl_accent;
+            // color: darken($cl_text2, 20%);
         }
     }
 }
